@@ -12,6 +12,8 @@ public class AddTwoNumbers
     
     addition= number1+number2;
     System.println("Addition of given two numbers is " +addition);
+
+    sc.close();
     
   }
 }
