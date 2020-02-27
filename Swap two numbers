@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class SwapTwoNum
+{ 
+   public static void main(String args[])
+   {
+      int num1, num2, temp;
+      Scanner sc= new Scanner(System.in);
+      
+      System.out.println("Enter any two numbers ");
+      num1= sc.nextInt();
+      num2= sc.nextInt();
+
+      System.out.println("Before swapping:" +num +num2);
+
+      temp= num1;
+      num1= num2;
+      num2= temp;
+
+      System.out.println("Aftter swapping:" +num +num2);
+
+      sc.close();
+
+   }
+
+}
