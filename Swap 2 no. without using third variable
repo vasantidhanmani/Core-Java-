@@ -22,5 +22,9 @@ public class SwapTwoNum
       sc.close();
 
    }
-
 }
+
+/*Output:
+Enter any two numbers 55 88
+Before swapping:55 88
+Aftter swapping:88 55 */
