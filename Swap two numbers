@@ -20,7 +20,11 @@ public class SwapTwoNum
       System.out.println("Aftter swapping:" +num +num2);
 
       sc.close();
-
    }
-
 }
+
+
+/*Output:
+Enter any two numbers 111 222
+Before swapping:111 222
+Aftter swapping:222 111 */
